@@ -5,6 +5,7 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('IMDB Dataset.csv')
+dataset.head(15)
 
 # Distribution of data
 dataset['sentiment'].value_counts()
